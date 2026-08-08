@@ -8,4 +8,4 @@ if [ -x "$HERE/.venv/bin/python" ]; then
 else
     PY="$(command -v python3 || command -v python)"
 fi
-exec "$PY" "$HERE/forge_tui.py" "$@"
+exec "$PY" "$HERE/forge_tui_fixed.py" "$@"
