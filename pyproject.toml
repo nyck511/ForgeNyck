@@ -15,8 +15,8 @@ dependencies = [
 ]
 
 [project.scripts]
-forge = "forge_tui:main"
+forge = "forge_tui_fixed:main"
 forge-cli = "forge:main"
 
 [tool.setuptools]
-py-modules = ["forge", "forge_core", "forge_tui"]
+py-modules = ["forge", "forge_core", "forge_tui", "forge_tui_fixed"]

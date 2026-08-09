@@ -5,5 +5,5 @@ setlocal
 set "HERE=%~dp0"
 set "PY=%HERE%.venv\Scripts\python.exe"
 if not exist "%PY%" set "PY=python"
-"%PY%" "%HERE%forge_tui.py" %*
+"%PY%" "%HERE%forge_tui_fixed.py" %*
 endlocal
